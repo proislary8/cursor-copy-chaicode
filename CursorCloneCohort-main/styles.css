@@ -83,6 +83,7 @@ body {
   padding-left: 70px;
   flex: 1;
 }
+
 #navbar .nav-options .nav-btn {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -95,6 +96,7 @@ body {
   justify-self: end;
   margin-right: 120px;
 }
+
 #navbar .nav-options .contact {
   color: var(--primary-text-color);
   background-color: var(--primary-color);
@@ -312,58 +314,33 @@ body {
   justify-content: space-between;
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .quote
-  p {
+.testimonials-card-section .testimonials-card-container .testimonials-card .quote p {
   color: var(--primary-text-color);
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .author {
+.testimonials-card-section .testimonials-card-container .testimonials-card .author {
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .author
-  .author-image {
+.testimonials-card-section .testimonials-card-container .testimonials-card .author .author-image {
   height: 40px;
   width: 40px;
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .author
-  img {
+.testimonials-card-section .testimonials-card-container .testimonials-card .author img {
   height: 40px;
   width: 40px;
   border-radius: 4px;
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .author
-  .author-info
-  .name {
+.testimonials-card-section .testimonials-card-container .testimonials-card .author .author-info .name {
   color: var(--primary-text-color);
   font-size: 14px;
 }
 
-.testimonials-card-section
-  .testimonials-card-container
-  .testimonials-card
-  .author
-  .author-info
-  .role {
+.testimonials-card-section .testimonials-card-container .testimonials-card .author .author-info .role {
   color: var(--primary-text-color-transparent);
   font-size: 14px;
 }
@@ -433,6 +410,7 @@ body {
 .change-log-section {
   margin-bottom: 138px;
 }
+
 .change-log-section .title {
   color: var(--primary-text-color);
   font-size: 26px;
@@ -526,7 +504,7 @@ body {
 
 .recent-highlight-section .container {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(12, 1fr);
   margin-left: 92px;
   margin-right: 92px;
   padding: 90px 20px;
@@ -568,10 +546,12 @@ body {
   font-size: 16px;
   color: var(--primary-text-color);
 }
+
 .recent-highlight-section .highlights .highlight .info {
   font-size: 16px;
   color: var(--primary-text-color-transparent);
 }
+
 .recent-highlight-section .highlights .highlight .date {
   font-size: 16px;
   color: var(--primary-text-color-transparent);
@@ -596,7 +576,7 @@ body {
   flex-direction: column;
 }
 
-.final-cta .tagline h2{
+.final-cta .tagline h2 {
   color: var(--primary-text-color);
   font-size: 72px;
   font-weight: 400;
@@ -631,11 +611,11 @@ footer nav {
 footer nav .options-container .options {
   display: flex;
   flex-direction: column;
-  gap : 14px;
+  gap: 14px;
   height: 236px;
 }
 
-footer nav .options-container .options p{
+footer nav .options-container .options p {
   color: var(--primary-text-color-transparent);
   text-decoration: none;
   font-size: 14px;
