@@ -2,6 +2,8 @@
 
 A static HTML and CSS recreation of the Cursor marketing site, built as a front-end layout exercise.
 
+![Cursor Landing Page Demo](assets/demo-screenshot.png)
+
 ## Features
 - Fixed navigation with product links and CTA buttons
 - Hero section with download CTA and product image
